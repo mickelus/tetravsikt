@@ -1,15 +1,28 @@
 {
-    "replace": true,
-    "slots": [ "sword/blade" ],
-    "rarity": "temporary",
-    "displayType": "improvement",
-    "materialSlotCount": 1,
     "requirement": {
         "type": "tetra:and",
         "requirements": [
             {
-                "type": "tetra:locked",
-                "key": "tetra:stonecutter"
+                "type": "tetra:or",
+                "requirements": [
+                    {
+                        "type": "tetra:and",
+                        "requirements": [
+                            {
+                                "type": "tetra:locked",
+                                "key": "tetra:forged_workbench"
+                            },
+                            {
+                                "type": "tetra:locked",
+                                "key": "tetravsikt:catalyst"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "tetra:locked",
+                        "key": "tetra:stonecutter"
+                    }
+                ]
             },
             {
                 "type": "tetra:module",
@@ -27,20 +40,5 @@
                 }
             }
         ]
-    },
-    "glyph": {
-        "textureX": 48,
-        "textureY": 224
-    },
-    "outcomes": [
-        {
-            "material": {
-                "items": [ "tetra:forged_bolt" ],
-                "count": 4
-            },
-            "improvements": {
-                "unbound_stonecutter/adjustable_focus": 0
-            }
-        }
-    ]
+    }
 }

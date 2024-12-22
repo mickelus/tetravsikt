@@ -1,38 +1,16 @@
 {
-    "replace": true,
-    "slots": [ "bow/riser" ],
-    "materialSlotCount": 1,
-    "displayType": "minor",
-    "glyph": {
-        "textureX": 120,
-        "textureY": 112
-    },
-    "translation": {
-        "primaryEffects": {
-            "zoom": 3,
-            "focus": -1
-        },
-        "tertiaryEffects": {
-            "focus": 3,
-            "zoom": -1
-        },
-        "durability": 1
-    },
-    "outcomes": [
-        {
-            "materials": [ "tetra:wood/", "tetra:metal/", "tetra:bone/", "tetra:rod/stick" ],
-            "moduleKey": "bow/sights",
-            "moduleVariant": "sights/"
-        },
-        {
-            "material": {
-                "items": [ "minecraft:echo_shard" ]
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:locked",
+                "key": "tetravsikt:smithing_table"
             },
-            "requiredTools": {
-                "hammer_dig": "minecraft:diamond"
-            },
-            "moduleKey": "bow/sights",
-            "moduleVariant": "sights/echo_shard"
-        }
-    ]
+            {
+                "type": "tetra:locked",
+                "key": "tetravsikt:fletching_table"
+            }
+        ]
+    },
+    "rarity": "temporary"
 }

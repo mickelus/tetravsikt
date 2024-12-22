@@ -1,19 +1,11 @@
 {
-    "replace": true,
-    "slots": [
-        "shield/grip"
-    ],
-    "materialSlotCount": 0,
-    "hone": true,
-    "rarity": "hone",
-    "displayType": "major",
-    "glyph": {
-        "textureX": 16,
-        "textureY": 240
-    },
     "requirement": {
         "type": "tetra:and",
         "requirements": [
+            {
+                "type": "tetra:locked",
+                "key": "tetravsikt:grindstone"
+            },
             {
                 "type": "tetra:module",
                 "module": "shield/straps"
@@ -26,15 +18,5 @@
                 }
             }
         ]
-    },
-    "outcomes": [
-        {
-            "requiredTools": {
-                "hammer_dig": "minecraft:gold"
-            },
-            "improvements": {
-                "grip_hone/speed_flat": 1
-            }
-        }
-    ]
+    }
 }

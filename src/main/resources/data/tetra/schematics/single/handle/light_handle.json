@@ -1,29 +1,7 @@
 {
-    "replace": true,
-    "slots": [
-        "single/handle"
-    ],
-    "materialSlotCount": 1,
-    "displayType": "major",
-    "glyph": {
-        "textureX": 16
+    "requirement": {
+        "type": "tetra:locked",
+        "key": "tetravsikt:fletching_table"
     },
-    "translation": {
-        "secondaryAttributes": {
-            "generic.attack_speed": -1
-        },
-        "secondaryEffects": {
-            "throwable": [0, 1]
-        },
-        "durability": 1,
-        "integrity": 3,
-        "magicCapacity": 3
-    },
-    "outcomes": [
-        {
-            "materials": ["tetra:wood/", "tetra:metal/", "tetra:bone/", "tetra:rod/"],
-            "moduleKey": "single/light_handle",
-            "moduleVariant": "light_handle/"
-        }
-    ]
+    "rarity": "temporary"
 }

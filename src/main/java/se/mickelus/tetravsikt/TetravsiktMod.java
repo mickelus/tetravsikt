@@ -15,6 +15,9 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import se.mickelus.mutil.network.PacketHandler;
 import se.mickelus.mutil.scheduling.AbstractScheduler;
 import se.mickelus.mutil.scheduling.ServerScheduler;
+import se.mickelus.tetra.craftingeffect.CraftingEffectRegistry;
+import se.mickelus.tetravsikt.craftingeffect.DamageAnvilOutcome;
+import se.mickelus.tetravsikt.craftingeffect.SpawnSculkOutcome;
 
 import javax.annotation.ParametersAreNonnullByDefault;
 import java.util.concurrent.CompletableFuture;
@@ -40,6 +43,8 @@ public class TetravsiktMod {
     @SubscribeEvent
     public void setup(FMLCommonSetupEvent event) {
 //        packetHandler.registerPacket(SapParticlePacket.class, SapParticlePacket::new);
+        CraftingEffectRegistry.registerEffectType("tetravsikt:damage_anvil", DamageAnvilOutcome.class);
+        CraftingEffectRegistry.registerEffectType("tetravsikt:spawn_sculk", SpawnSculkOutcome.class);
     }
 
     @SubscribeEvent

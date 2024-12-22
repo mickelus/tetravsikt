@@ -1,29 +1,42 @@
 {
-    "replace": true,
-    "localizationKey": "double/shared_head/hone_pickaxe_efficiency_4",
-    "slots": [
-        "sword/blade"
-    ],
-    "materialSlotCount": 0,
-    "hone": true,
-    "rarity": "hone",
-    "displayType": "major",
-    "glyph": {
-        "textureX": 176
-    },
     "requirement": {
-        "type": "tetra:improvement",
-        "improvement": "stonecutter_hone/efficiency",
-        "level": 3
-    },
-    "outcomes": [
-        {
-            "requiredTools": {
-                "hammer_dig": "minecraft:diamond"
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:locked",
+                "key": "tetravsikt:smithing_table"
             },
-            "improvements": {
-                "stonecutter_hone/efficiency": 4
+            {
+                "type": "tetra:locked",
+                "key": "tetravsikt:anvil"
+            },
+            {
+                "type": "tetra:or",
+                "requirements": [
+                    {
+                        "type": "tetra:and",
+                        "requirements": [
+                            {
+                                "type": "tetra:locked",
+                                "key": "tetra:forged_workbench"
+                            },
+                            {
+                                "type": "tetra:locked",
+                                "key": "tetravsikt:catalyst"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "tetra:locked",
+                        "key": "tetra:stonecutter"
+                    }
+                ]
+            },
+            {
+                "type": "tetra:improvement",
+                "improvement": "stonecutter_hone/efficiency",
+                "level": 3
             }
-        }
-    ]
+        ]
+    }
 }

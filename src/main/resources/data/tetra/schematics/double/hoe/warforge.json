@@ -1,21 +1,35 @@
 {
-    "replace": true,
-    "localizationKey": "double/warforge",
-    "slots": [ "double/head_left", "double/head_right" ],
-    "keySuffixes": [ "_left", "_right" ],
-    "materialSlotCount": 0,
-    "rarity": "temporary",
-    "displayType": "improvement",
-    "glyph": {
-        "textureX": 128,
-        "textureY": 240
-    },
     "requirement": {
         "type": "tetra:and",
         "requirements": [
             {
-                "type": "tetra:locked",
-                "key": "tetra:warforge/hoe"
+                "type": "tetra:or",
+                "requirements": [
+                    {
+                        "type": "tetra:and",
+                        "requirements": [
+                            {
+                                "type": "tetra:locked",
+                                "key": "tetravsikt:grindstone"
+                            },
+                            {
+                                "type": "tetra:locked",
+                                "key": "tetravsikt:anvil"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "tetra:locked",
+                        "key": "tetra:warforge/hoe"
+                    }
+                ]
+            },
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:improvement",
+                    "improvement": "double/warforged"
+                }
             },
             {
                 "type": "tetra:or",
@@ -31,15 +45,5 @@
                 ]
             }
         ]
-    },
-    "outcomes": [
-        {
-            "requiredTools": {
-                "hammer_dig": "minecraft:iron"
-            },
-            "improvements": {
-                "double/warforged": 0
-            }
-        }
-    ]
+    }
 }

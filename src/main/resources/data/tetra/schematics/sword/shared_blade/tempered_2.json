@@ -1,25 +1,20 @@
 {
-    "replace": true,
-    "slots": [
-        "sword/blade"
-    ],
-    "materialSlotCount": 0,
-    "hone": true,
-    "rarity": "hone",
-    "displayType": "improvement",
     "requirement": {
-        "type": "tetra:improvement",
-        "improvement": "blade/tempered",
-        "level": 1
-    },
-    "outcomes": [
-        {
-            "requiredTools": {
-                "hammer_dig": "minecraft:iron"
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:locked",
+                "key": "tetravsikt:smithing_table"
             },
-            "improvements": {
-                "blade/tempered": 2
+            {
+                "type": "tetra:locked",
+                "key": "tetravsikt:blast_furnace"
+            },
+            {
+                "type": "tetra:improvement",
+                "improvement": "blade/tempered",
+                "level": 1
             }
-        }
-    ]
+        ]
+    }
 }

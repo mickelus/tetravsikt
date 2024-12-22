@@ -1,26 +1,7 @@
 {
-    "replace": true,
-    "slots": [
-        "double/binding"
-    ],
-    "materialSlotCount": 1,
-    "displayType": "minor",
-    "glyph": {
-        "textureX": 88,
-        "textureY": 112
+    "requirement": {
+        "type": "tetra:locked",
+        "key": "tetravsikt:loom"
     },
-    "outcomes": [
-        {
-            "materials": [ "tetra:fibre/", "tetra:skin/" ],
-            "moduleKey": "double/binding",
-            "moduleVariant": "double_binding/"
-        },
-        {
-            "material": {
-                "items": [ "tetra:forged_bolt" ]
-            },
-            "moduleKey": "double/binding",
-            "moduleVariant": "double_binding/bolt"
-        }
-    ]
+    "rarity": "temporary"
 }

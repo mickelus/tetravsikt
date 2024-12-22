@@ -1,15 +1,28 @@
 {
-    "replace": true,
-    "slots": ["single/head"],
-    "materialSlotCount": 1,
-    "rarity": "temporary",
-    "displayType": "major",
     "requirement": {
         "type": "tetra:and",
         "requirements": [
             {
-                "type": "tetra:locked",
-                "key": "tetra:earthpiercer"
+                "type": "tetra:or",
+                "requirements": [
+                    {
+                        "type": "tetra:and",
+                        "requirements": [
+                            {
+                                "type": "tetra:locked",
+                                "key": "tetra:forged_workbench"
+                            },
+                            {
+                                "type": "tetra:locked",
+                                "key": "tetravsikt:catalyst"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "tetra:locked",
+                        "key": "tetra:earthpiercer"
+                    }
+                ]
             },
             {
                 "type": "tetra:module",
@@ -23,22 +36,5 @@
                 }
             }
         ]
-    },
-    "glyph": {
-        "textureX": 192,
-        "textureY": 240
-    },
-    "outcomes": [
-        {
-            "material": {
-                "items": ["minecraft:echo_shard"]
-            },
-            "requiredTools": {
-                "hammer_dig": "minecraft:wood"
-            },
-            "improvements": {
-                "unbound_earthpiercer/echo_shard": 0
-            }
-        }
-    ]
+    }
 }

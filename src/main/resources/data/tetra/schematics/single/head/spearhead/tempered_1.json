@@ -1,17 +1,15 @@
 {
-    "replace": true,
-    "slots": [
-        "single/head"
-    ],
-    "materialSlotCount": 0,
-    "displayType": "improvement",
-    "glyph": {
-        "textureX": 208,
-        "textureY": 32
-    },
     "requirement": {
         "type": "tetra:and",
         "requirements": [
+            {
+                "type": "tetra:locked",
+                "key": "tetravsikt:smithing_table"
+            },
+            {
+                "type": "tetra:locked",
+                "key": "tetravsikt:blast_furnace"
+            },
             {
                 "type": "tetra:or",
                 "requirements": [
@@ -34,14 +32,5 @@
             }
         ]
     },
-    "outcomes": [
-        {
-            "requiredTools": {
-                "hammer_dig": "minecraft:stone"
-            },
-            "improvements": {
-                "spearhead/tempered": 1
-            }
-        }
-    ]
+    "rarity": "temporary"
 }

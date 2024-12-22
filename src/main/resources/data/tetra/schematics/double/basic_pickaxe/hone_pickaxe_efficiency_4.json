@@ -1,24 +1,15 @@
 {
-    "replace": true,
-    "localizationKey": "double/shared_head/hone_pickaxe_efficiency_4",
-    "slots": [
-        "double/head_left",
-        "double/head_right"
-    ],
-    "keySuffixes": [
-        "_left",
-        "_right"
-    ],
-    "materialSlotCount": 0,
-    "hone": true,
-    "rarity": "hone",
-    "displayType": "major",
-    "glyph": {
-        "textureX": 176
-    },
     "requirement": {
         "type": "tetra:and",
         "requirements": [
+            {
+                "type": "tetra:locked",
+                "key": "tetravsikt:smithing_table"
+            },
+            {
+                "type": "tetra:locked",
+                "key": "tetravsikt:anvil"
+            },
             {
                 "type": "tetra:or",
                 "requirements": [
@@ -38,15 +29,5 @@
                 "level": 3
             }
         ]
-    },
-    "outcomes": [
-        {
-            "requiredTools": {
-                "hammer_dig": "minecraft:stone"
-            },
-            "improvements": {
-                "head_hone/pickaxe_efficiency": 4
-            }
-        }
-    ]
+    }
 }

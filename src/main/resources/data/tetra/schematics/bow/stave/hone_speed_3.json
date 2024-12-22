@@ -1,29 +1,20 @@
 {
-    "replace": true,
-    "slots": [
-        "bow/stave"
-    ],
-    "materialSlotCount": 0,
-    "hone": true,
-    "rarity": "hone",
-    "displayType": "major",
-    "glyph": {
-        "textureX": 16,
-        "textureY": 240
-    },
     "requirement": {
-        "type": "tetra:improvement",
-        "improvement": "stave_hone/speed",
-        "level": 2
-    },
-    "outcomes": [
-        {
-            "requiredTools": {
-                "axe_dig": "minecraft:stone"
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:locked",
+                "key": "tetravsikt:grindstone"
             },
-            "improvements": {
-                "stave_hone/speed": 3
+            {
+                "type": "tetra:locked",
+                "key": "tetravsikt:anvil"
+            },
+            {
+                "type": "tetra:improvement",
+                "improvement": "stave_hone/speed",
+                "level": 2
             }
-        }
-    ]
+        ]
+    }
 }

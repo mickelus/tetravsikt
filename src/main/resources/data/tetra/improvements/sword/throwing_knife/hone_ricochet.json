@@ -1,0 +1,13 @@
+[
+    {
+        "key": "throwing_knife/hone_ricochet",
+        "level": 0,
+        "integrity": -1,
+        "aspects": {
+            "honed": 1
+        },
+        "effects": {
+            "ricochet": 1
+        }
+    }
+]

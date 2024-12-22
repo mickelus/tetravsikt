@@ -1,15 +1,28 @@
 {
-    "replace": true,
-    "slots": ["single/head"],
-    "rarity": "temporary",
-    "hone": true,
-    "displayType": "improvement",
     "requirement": {
         "type": "tetra:and",
         "requirements": [
             {
-                "type": "tetra:locked",
-                "key": "tetra:earthpiercer"
+                "type": "tetra:or",
+                "requirements": [
+                    {
+                        "type": "tetra:and",
+                        "requirements": [
+                            {
+                                "type": "tetra:locked",
+                                "key": "tetra:forged_workbench"
+                            },
+                            {
+                                "type": "tetra:locked",
+                                "key": "tetravsikt:catalyst"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "tetra:locked",
+                        "key": "tetra:earthpiercer"
+                    }
+                ]
             },
             {
                 "type": "tetra:improvement",
@@ -21,17 +34,5 @@
                 "level": 2
             }
         ]
-    },
-    "glyph": {
-        "textureX": 144,
-        "textureY": 240
-    },
-    "outcomes": [
-        {
-            "experienceCost": 3,
-            "improvements": {
-                "unbound_earthpiercer/bound": 3
-            }
-        }
-    ]
+    }
 }

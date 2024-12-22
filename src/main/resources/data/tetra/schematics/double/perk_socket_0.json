@@ -1,26 +1,19 @@
 {
-    "replace": true,
-    "slots": [ "double/binding" ],
-    "materialSlotCount": 1,
-    "displayType": "minor",
-    "rarity": "temporary",
     "requirement": {
-        "type": "tetra:perk",
-        "perk": "support",
-        "level": {
-            "min": 1
-        }
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:perk",
+                "perk": "support",
+                "level": {
+                    "min": 1
+                }
+            },
+            {
+                "type": "tetra:locked",
+                "key": "tetravsikt:enchanting_table"
+            }
+        ]
     },
-    "glyph": {
-        "textureX": 160,
-        "textureY": 112
-    },
-    "outcomes": [
-        {
-            "materials": [ "tetra:socket/" ],
-            "moduleKey": "double/perk_socket_0",
-            "moduleVariant": "double_perk_socket_0/",
-            "experienceFactor": 1
-        }
-    ]
+    "rarity": "temporary"
 }

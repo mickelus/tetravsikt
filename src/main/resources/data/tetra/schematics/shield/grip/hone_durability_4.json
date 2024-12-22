@@ -1,28 +1,16 @@
 {
-    "replace": true,
-    "slots": [
-        "shield/grip"
-    ],
-    "materialSlotCount": 0,
-    "hone": true,
-    "rarity": "hone",
-    "displayType": "major",
-    "glyph": {
-        "textureY": 240
-    },
     "requirement": {
-        "type": "tetra:improvement",
-        "improvement": "grip_hone/durability",
-        "level": 3
-    },
-    "outcomes": [
-        {
-            "requiredTools": {
-                "hammer_dig": "minecraft:stone"
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:locked",
+                "key": "tetravsikt:anvil"
             },
-            "improvements": {
-                "grip_hone/durability": 4
+            {
+                "type": "tetra:improvement",
+                "improvement": "grip_hone/durability",
+                "level": 3
             }
-        }
-    ]
+        ]
+    }
 }

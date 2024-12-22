@@ -1,4 +1,6 @@
 {
-    "block": "#minecraft:anvil",
+    "block": {
+        "tag": "minecraft:anvil"
+    },
     "schematics": [ "tetravsikt:anvil" ]
 }

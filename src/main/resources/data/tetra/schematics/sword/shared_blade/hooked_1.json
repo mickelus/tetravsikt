@@ -1,13 +1,11 @@
 {
-    "replace": true,
-    "slots": [
-        "sword/blade"
-    ],
-    "materialSlotCount": 0,
-    "displayType": "improvement",
     "requirement": {
         "type": "tetra:and",
         "requirements": [
+            {
+                "type": "tetra:locked",
+                "key": "tetravsikt:grindstone"
+            },
             {
                 "type": "tetra:not",
                 "requirement": {
@@ -21,14 +19,5 @@
             }
         ]
     },
-    "outcomes": [
-        {
-            "requiredTools": {
-                "hammer_dig": "minecraft:stone"
-            },
-            "improvements": {
-                "blade/hooked": 1
-            }
-        }
-    ]
+    "rarity": "temporary"
 }

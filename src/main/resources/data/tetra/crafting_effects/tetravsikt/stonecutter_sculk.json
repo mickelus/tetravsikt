@@ -1,0 +1,38 @@
+{
+    "replace": true,
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:module",
+                "module": "sword/unbound_stonecutter"
+            },
+            {
+                "type": "tetra:or",
+                "requirements": [
+                    {
+                        "type": "tetra:craft_type",
+                        "craft": "improvement"
+                    },
+                    {
+                        "type": "tetra:craft_type",
+                        "craft": "repair"
+                    }
+                ]
+            },
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:locked",
+                    "key": "tetra:stonecutter"
+                }
+            }
+        ]
+    },
+    "outcomes": [
+        {
+            "type": "tetravsikt:spawn_sculk",
+            "chance": 1.0
+        }
+    ]
+}

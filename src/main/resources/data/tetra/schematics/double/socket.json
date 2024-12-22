@@ -1,18 +1,7 @@
 {
-    "replace": true,
-    "slots": [ "double/binding" ],
-    "materialSlotCount": 1,
-    "displayType": "minor",
-    "glyph": {
-        "textureX": 80,
-        "textureY": 112
+    "requirement": {
+        "type": "tetra:locked",
+        "key": "tetravsikt:enchanting_table"
     },
-    "outcomes": [
-        {
-            "materials": [ "tetra:socket/" ],
-            "moduleKey": "double/socket",
-            "moduleVariant": "double_socket/",
-            "experienceFactor": 1
-        }
-    ]
+    "rarity": "temporary"
 }

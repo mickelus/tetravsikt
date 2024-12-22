@@ -1,24 +1,19 @@
 {
-    "replace": true,
-    "localizationKey": "double/shared_head/hone_hammer_tier_1",
-    "slots": [
-        "double/head_left",
-        "double/head_right"
-    ],
-    "keySuffixes": [
-        "_left",
-        "_right"
-    ],
-    "materialSlotCount": 0,
-    "hone": true,
-    "rarity": "hone",
-    "displayType": "major",
-    "glyph": {
-        "textureX": 64
-    },
     "requirement": {
         "type": "tetra:and",
         "requirements": [
+            {
+                "type": "tetra:locked",
+                "key": "tetravsikt:smithing_table"
+            },
+            {
+                "type": "tetra:locked",
+                "key": "tetravsikt:anvil"
+            },
+            {
+                "type": "tetra:locked",
+                "key": "tetravsikt:grindstone"
+            },
             {
                 "type": "tetra:or",
                 "requirements": [
@@ -29,6 +24,14 @@
                     {
                         "type": "tetra:module",
                         "module": "double/basic_hammer_left"
+                    },
+                    {
+                        "type": "tetra:module",
+                        "module": "double/mallet_right"
+                    },
+                    {
+                        "type": "tetra:module",
+                        "module": "double/mallet_left"
                     }
                 ]
             },
@@ -47,15 +50,5 @@
                 }
             }
         ]
-    },
-    "outcomes": [
-        {
-            "requiredTools": {
-                "hammer_dig": "minecraft:stone"
-            },
-            "improvements": {
-                "head_hone/hammer_tier": 0
-            }
-        }
-    ]
+    }
 }

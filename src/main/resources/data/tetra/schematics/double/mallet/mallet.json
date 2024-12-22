@@ -1,0 +1,58 @@
+{
+    "replace": true,
+    "slots": [
+        "double/head_left",
+        "double/head_right"
+    ],
+    "keySuffixes": [
+        "_left",
+        "_right"
+    ],
+    "materialSlotCount": 1,
+    "glyph": {
+        "textureLocation": "tetravsikt:textures/gui/glyphs.png",
+        "textureX": 0,
+        "textureY": 0
+    },
+    "displayType": "major",
+    "applicableMaterials": [
+        "#wood",
+        "#stone",
+        "!blackstone",
+        "!obsidian"
+    ],
+    "translation": {
+        "primaryAttributes": {
+            "generic.attack_damage": 2
+        },
+        "secondaryAttributes": {
+            "generic.attack_damage": 3,
+            "generic.attack_speed": -1
+        },
+        "tools": {
+            "hammer_dig": [
+                0,
+                2
+            ]
+        },
+        "durability": 2,
+        "integrity": -3,
+        "magicCapacity": 3
+    },
+    "outcomes": [
+        {
+            "materials": [
+                "tetra:wood/",
+                "tetra:stone/stone",
+                "tetra:stone/diorite",
+                "tetra:stone/andesite",
+                "tetra:stone/granite",
+                "tetra:stone/blackstone",
+                "tetra:stone/obsidian"
+            ],
+            "toolFactor": 0,
+            "moduleKey": "double/mallet",
+            "moduleVariant": "mallet/"
+        }
+    ]
+}

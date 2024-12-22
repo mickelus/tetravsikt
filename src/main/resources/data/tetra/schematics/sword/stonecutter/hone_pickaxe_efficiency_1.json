@@ -1,19 +1,11 @@
 {
-    "replace": true,
-    "localizationKey": "double/shared_head/hone_pickaxe_efficiency_1",
-    "slots": [
-        "sword/blade"
-    ],
-    "materialSlotCount": 0,
-    "hone": true,
-    "rarity": "hone",
-    "displayType": "major",
-    "glyph": {
-        "textureX": 176
-    },
     "requirement": {
         "type": "tetra:and",
         "requirements": [
+            {
+                "type": "tetra:locked",
+                "key": "tetravsikt:smithing_table"
+            },
             {
                 "type": "tetra:module",
                 "module": "sword/stonecutter"
@@ -26,15 +18,5 @@
                 }
             }
         ]
-    },
-    "outcomes": [
-        {
-            "requiredTools": {
-                "hammer_dig": "minecraft:stone"
-            },
-            "improvements": {
-                "stonecutter_hone/efficiency": 1
-            }
-        }
-    ]
+    }
 }

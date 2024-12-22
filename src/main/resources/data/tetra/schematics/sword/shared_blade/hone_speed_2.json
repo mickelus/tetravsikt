@@ -1,29 +1,20 @@
 {
-    "replace": true,
-    "slots": [
-        "sword/blade"
-    ],
-    "materialSlotCount": 0,
-    "hone": true,
-    "rarity": "hone",
-    "displayType": "major",
-    "glyph": {
-        "textureX": 16,
-        "textureY": 240
-    },
     "requirement": {
-        "type": "tetra:improvement",
-        "improvement": "blade_hone/speed",
-        "level": 1
-    },
-    "outcomes": [
-        {
-            "requiredTools": {
-                "hammer_dig": "minecraft:gold"
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:locked",
+                "key": "tetravsikt:grindstone"
             },
-            "improvements": {
-                "blade_hone/speed": 2
+            {
+                "type": "tetra:locked",
+                "key": "tetravsikt:anvil"
+            },
+            {
+                "type": "tetra:improvement",
+                "improvement": "blade_hone/speed",
+                "level": 1
             }
-        }
-    ]
+        ]
+    }
 }

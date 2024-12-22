@@ -1,0 +1,38 @@
+{
+    "replace": true,
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:module",
+                "module": "single/unbound_earthpiercer"
+            },
+            {
+                "type": "tetra:or",
+                "requirements": [
+                    {
+                        "type": "tetra:craft_type",
+                        "craft": "improvement"
+                    },
+                    {
+                        "type": "tetra:craft_type",
+                        "craft": "repair"
+                    }
+                ]
+            },
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:locked",
+                    "key": "tetra:earthpiercer"
+                }
+            }
+        ]
+    },
+    "outcomes": [
+        {
+            "type": "tetravsikt:spawn_sculk",
+            "chance": 1.0
+        }
+    ]
+}

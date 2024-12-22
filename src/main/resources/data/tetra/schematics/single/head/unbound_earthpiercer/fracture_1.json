@@ -1,14 +1,28 @@
 {
-    "replace": true,
-    "slots": ["single/head"],
-    "rarity": "temporary",
-    "displayType": "improvement",
     "requirement": {
         "type": "tetra:and",
         "requirements": [
             {
-                "type": "tetra:locked",
-                "key": "tetra:earthpiercer"
+                "type": "tetra:or",
+                "requirements": [
+                    {
+                        "type": "tetra:and",
+                        "requirements": [
+                            {
+                                "type": "tetra:locked",
+                                "key": "tetra:forged_workbench"
+                            },
+                            {
+                                "type": "tetra:locked",
+                                "key": "tetravsikt:catalyst"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "tetra:locked",
+                        "key": "tetra:earthpiercer"
+                    }
+                ]
             },
             {
                 "type": "tetra:module",
@@ -26,19 +40,5 @@
                 }
             }
         ]
-    },
-    "glyph": {
-        "textureX": 176,
-        "textureY": 240
-    },
-    "outcomes": [
-        {
-            "requiredTools": {
-                "hammer_dig": "minecraft:iron"
-            },
-            "improvements": {
-                "unbound_earthpiercer/fractured": 1
-            }
-        }
-    ]
+    }
 }

@@ -1,0 +1,47 @@
+{
+    "replace": true,
+    "requirement": {
+        "type": "tetra:or",
+        "requirements": [
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/basic_hammer/hone_hammer_1"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/basic_pickaxe/hone_pickaxe_tier_1"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/shared_head/hone_axe_tier_1"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/shared_head/hone_shovel_tier_1"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/head/basic_shovel/hone_shovel_tier_1"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/head/earthpiercer/hone_tier_1"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/stonecutter/hone_pickaxe_tier_1"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/unbound_stonecutter/hone_pickaxe_tier_1"
+            }
+        ]
+    },
+    "outcomes": [
+        {
+            "type": "tetravsikt:damage_anvil",
+            "chance": 1,
+            "range": 3
+        }
+    ]
+}

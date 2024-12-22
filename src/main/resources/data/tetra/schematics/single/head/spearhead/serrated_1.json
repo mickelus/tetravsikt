@@ -1,17 +1,11 @@
 {
-    "replace": true,
-    "slots": [
-        "single/head"
-    ],
-    "materialSlotCount": 0,
-    "displayType": "improvement",
-    "glyph": {
-        "textureX": 208,
-        "textureY": 32
-    },
     "requirement": {
         "type": "tetra:and",
         "requirements": [
+            {
+                "type": "tetra:locked",
+                "key": "tetravsikt:grindstone"
+            },
             {
                 "type": "tetra:or",
                 "requirements": [
@@ -34,14 +28,5 @@
             }
         ]
     },
-    "outcomes": [
-        {
-            "requiredTools": {
-                "hammer_dig": "minecraft:stone"
-            },
-            "improvements": {
-                "spearhead/serrated": 1
-            }
-        }
-    ]
+    "rarity": "temporary"
 }

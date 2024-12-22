@@ -1,23 +1,16 @@
 {
-    "replace": true,
-    "slots": [
-        "bow/riser"
-    ],
-    "materialSlotCount": 1,
-    "displayType": "minor",
-    "glyph": {
-        "tint": "bolt_glyph",
-        "textureX": 80,
-        "textureY": 112
-    },
-    "outcomes": [
-        {
-            "material": {
-                "items": [ "tetra:forged_bolt" ],
-                "count": 2
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:locked",
+                "key": "tetra:forged_workbench"
             },
-            "moduleKey": "bow/adjustable_strength",
-            "moduleVariant": "adjustable_strength/bolt"
-        }
-    ]
+            {
+                "type": "tetra:locked",
+                "key": "tetravsikt:fletching_table"
+            }
+        ]
+    },
+    "rarity": "temporary"
 }

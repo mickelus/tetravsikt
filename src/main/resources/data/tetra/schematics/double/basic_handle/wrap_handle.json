@@ -1,30 +1,7 @@
 {
-    "replace": true,
-    "slots": [ "double/handle" ],
-    "materialSlotCount": 1,
-    "glyph": {
-        "textureX": 16
+    "requirement": {
+        "type": "tetra:locked",
+        "key": "tetravsikt:loom"
     },
-    "displayType": "improvement",
-    "translation": {
-        "primaryAttributes": {
-            "generic.attack_speed": 1
-        },
-        "secondaryEffects": {
-            "fierySelf": -1
-        },
-        "tertiaryEffects": {
-            "enderReverb": -1
-        },
-        "durability": 1
-    },
-    "outcomes": [
-        {
-            "materials": [ "tetra:fibre/", "tetra:skin/", "tetra:fabric/" ],
-            "countFactor": 1.5,
-            "improvements": {
-                "basic_handle/wrap/": 0
-            }
-        }
-    ]
+    "rarity": "temporary"
 }

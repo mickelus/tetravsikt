@@ -1,24 +1,19 @@
 {
-    "replace": true,
-    "slots": [
-        "double/head_left",
-        "double/head_right"
-    ],
-    "keySuffixes": [
-        "_left",
-        "_right"
-    ],
-    "materialSlotCount": 0,
-    "hone": true,
-    "rarity": "hone",
-    "displayType": "major",
-    "glyph": {
-        "textureX": 0,
-        "textureY": 32
-    },
     "requirement": {
         "type": "tetra:and",
         "requirements": [
+            {
+                "type": "tetra:locked",
+                "key": "tetravsikt:smithing_table"
+            },
+            {
+                "type": "tetra:locked",
+                "key": "tetravsikt:anvil"
+            },
+            {
+                "type": "tetra:locked",
+                "key": "tetravsikt:grindstone"
+            },
             {
                 "type": "tetra:or",
                 "requirements": [
@@ -47,15 +42,5 @@
                 }
             }
         ]
-    },
-    "outcomes": [
-        {
-            "requiredTools": {
-                "hammer_dig": "minecraft:stone"
-            },
-            "improvements": {
-                "head_hone/shovel_tier": 0
-            }
-        }
-    ]
+    }
 }

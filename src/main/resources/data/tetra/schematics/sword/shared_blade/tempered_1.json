@@ -1,13 +1,15 @@
 {
-    "replace": true,
-    "slots": [
-        "sword/blade"
-    ],
-    "materialSlotCount": 0,
-    "displayType": "improvement",
     "requirement": {
         "type": "tetra:and",
         "requirements": [
+            {
+                "type": "tetra:locked",
+                "key": "tetravsikt:smithing_table"
+            },
+            {
+                "type": "tetra:locked",
+                "key": "tetravsikt:blast_furnace"
+            },
             {
                 "type": "tetra:not",
                 "requirement": {
@@ -21,14 +23,5 @@
             }
         ]
     },
-    "outcomes": [
-        {
-            "requiredTools": {
-                "hammer_dig": "minecraft:stone"
-            },
-            "improvements": {
-                "blade/tempered": 1
-            }
-        }
-    ]
+    "rarity": "temporary"
 }

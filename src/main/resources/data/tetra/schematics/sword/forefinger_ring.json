@@ -1,26 +1,7 @@
 {
-    "replace": true,
-    "slots": [
-        "sword/guard"
-    ],
-    "materialSlotCount": 1,
-    "displayType": "minor",
-    "glyph": {
-        "textureX": 48,
-        "textureY": 112
+    "requirement": {
+        "type": "tetra:locked",
+        "key": "tetravsikt:smithing_table"
     },
-    "translation": {
-        "durability": 1
-    },
-    "outcomes": [
-        {
-            "materials": [
-                "tetra:wood/",
-                "tetra:metal/",
-                "tetra:bone/"
-            ],
-            "moduleKey": "sword/forefinger_ring",
-            "moduleVariant": "forefinger_ring/"
-        }
-    ]
+    "rarity": "temporary"
 }

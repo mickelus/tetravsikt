@@ -1,15 +1,28 @@
 {
-    "replace": true,
-    "slots": ["double/head_right"],
-    "rarity": "temporary",
-    "hone": true,
-    "displayType": "improvement",
     "requirement": {
         "type": "tetra:and",
         "requirements": [
             {
-                "type": "tetra:locked",
-                "key": "tetra:extractor"
+                "type": "tetra:or",
+                "requirements": [
+                    {
+                        "type": "tetra:and",
+                        "requirements": [
+                            {
+                                "type": "tetra:locked",
+                                "key": "tetra:forged_workbench"
+                            },
+                            {
+                                "type": "tetra:locked",
+                                "key": "tetravsikt:catalyst"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "tetra:locked",
+                        "key": "tetra:extractor"
+                    }
+                ]
             },
             {
                 "type": "tetra:module",
@@ -23,17 +36,5 @@
                 }
             }
         ]
-    },
-    "glyph": {
-        "textureX": 144,
-        "textureY": 240
-    },
-    "outcomes": [
-        {
-            "experienceCost": 3,
-            "improvements": {
-                "unbound_extractor/bound": 1
-            }
-        }
-    ]
+    }
 }

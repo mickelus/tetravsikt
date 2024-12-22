@@ -1,15 +1,28 @@
 {
-    "replace": true,
-    "slots": ["sword/blade"],
-    "rarity": "temporary",
-    "hone": true,
-    "displayType": "improvement",
     "requirement": {
         "type": "tetra:and",
         "requirements": [
             {
-                "type": "tetra:locked",
-                "key": "tetra:stonecutter"
+                "type": "tetra:or",
+                "requirements": [
+                    {
+                        "type": "tetra:and",
+                        "requirements": [
+                            {
+                                "type": "tetra:locked",
+                                "key": "tetra:forged_workbench"
+                            },
+                            {
+                                "type": "tetra:locked",
+                                "key": "tetravsikt:catalyst"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "tetra:locked",
+                        "key": "tetra:stonecutter"
+                    }
+                ]
             },
             {
                 "type": "tetra:module",
@@ -25,19 +38,5 @@
                 "level": 2
             }
         ]
-    },
-    "glyph": {
-        "textureX": 176,
-        "textureY": 240
-    },
-    "outcomes": [
-        {
-            "requiredTools": {
-                "hammer_dig": "minecraft:netherite"
-            },
-            "improvements": {
-                "unbound_stonecutter/fractured": 3
-            }
-        }
-    ]
+    }
 }

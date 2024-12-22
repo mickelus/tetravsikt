@@ -1,20 +1,19 @@
 {
-    "replace": true,
-    "localizationKey": "double/shared_head/hone_shovel_tier_1",
-    "slots": [
-        "single/head"
-    ],
-    "materialSlotCount": 0,
-    "hone": true,
-    "rarity": "hone",
-    "displayType": "major",
-    "glyph": {
-        "textureX": 176,
-        "textureY": 32
-    },
     "requirement": {
         "type": "tetra:and",
         "requirements": [
+            {
+                "type": "tetra:locked",
+                "key": "tetravsikt:smithing_table"
+            },
+            {
+                "type": "tetra:locked",
+                "key": "tetravsikt:anvil"
+            },
+            {
+                "type": "tetra:locked",
+                "key": "tetravsikt:grindstone"
+            },
             {
                 "type": "tetra:module",
                 "module": "single/basic_shovel"
@@ -34,15 +33,5 @@
                 }
             }
         ]
-    },
-    "outcomes": [
-        {
-            "requiredTools": {
-                "hammer_dig": "minecraft:stone"
-            },
-            "improvements": {
-                "head_hone/shovel_tier": 0
-            }
-        }
-    ]
+    }
 }

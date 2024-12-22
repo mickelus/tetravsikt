@@ -1,0 +1,711 @@
+{
+    "replace": true,
+    "requirement": {
+        "type": "tetra:or",
+        "requirements": [
+            {
+                "type": "tetra:schematic",
+                "schematic": "bow/stave/hone_speed_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "bow/stave/hone_speed_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "bow/stave/hone_speed_4"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "bow/stave/hone_speed_5"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "bow/string/hone_damage_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "bow/string/hone_damage_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "bow/string/hone_damage_4"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "bow/string/hone_damage_5"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/basic_axe/hone_damage_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/basic_axe/hone_damage_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/basic_axe/hone_damage_4"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/basic_axe/hone_damage_5"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/basic_handle/hone_speed_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/basic_handle/hone_speed_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/basic_handle/hone_speed_4"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/basic_handle/hone_speed_5"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/basic_pickaxe/hone_pickaxe_efficiency_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/basic_pickaxe/hone_pickaxe_efficiency_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/basic_pickaxe/hone_pickaxe_efficiency_4"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/basic_pickaxe/hone_pickaxe_efficiency_5"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/extractor/hone_extractor_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/extractor/hone_extractor_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/extractor/hone_extractor_4"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/extractor/hone_extractor_5"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/shared_head/hone_axe_efficiency_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/shared_head/hone_axe_efficiency_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/shared_head/hone_axe_efficiency_4"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/shared_head/hone_axe_efficiency_5"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/shared_head/hone_shovel_efficiency_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/shared_head/hone_shovel_efficiency_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/shared_head/hone_shovel_efficiency_4"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/shared_head/hone_shovel_efficiency_5"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/shared_head/hone_durability_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/shared_head/hone_durability_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/shared_head/hone_durability_4"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/shared_head/hone_durability_5"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/shared_head/hone_speed_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/shared_head/hone_speed_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/shared_head/hone_speed_4"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/shared_head/hone_speed_5"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/unbound_extractor/bind_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/unbound_extractor/bind_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/unbound_extractor/bind_4"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/unbound_extractor/bind_5"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/unbound_extractor/bind_6"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/unbound_extractor/bind_7"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/unbound_extractor/bind_8"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/unbound_extractor/bind_9"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/unbound_extractor/bind_10"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/unbound_extractor/fracture_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/unbound_extractor/fracture_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/unbound_extractor/potency_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/unbound_extractor/potency_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/unbound_extractor/potency_4"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "double/unbound_extractor/potency_5"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "shield/grip/hone_damage_2_flat"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "shield/grip/hone_damage_3_flat"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "shield/grip/hone_damage_4_flat"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "shield/grip/hone_damage_5_flat"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "shield/grip/hone_damage_2_mult"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "shield/grip/hone_damage_3_mult"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "shield/grip/hone_damage_4_mult"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "shield/grip/hone_damage_5_mult"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "shield/grip/hone_durability_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "shield/grip/hone_durability_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "shield/grip/hone_durability_4"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "shield/grip/hone_durability_5"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "shield/grip/hone_speed_2_flat"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "shield/grip/hone_speed_3_flat"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "shield/grip/hone_speed_4_flat"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "shield/grip/hone_speed_5_flat"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "shield/grip/hone_speed_2_mult"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "shield/grip/hone_speed_3_mult"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "shield/grip/hone_speed_4_mult"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "shield/grip/hone_speed_5_mult"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "shield/plate/hone_damage_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "shield/plate/hone_damage_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "shield/plate/hone_damage_4"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "shield/plate/hone_damage_5"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "shield/plate/hone_durability_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "shield/plate/hone_durability_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "shield/plate/hone_durability_4"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "shield/plate/hone_durability_5"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "shield/plate/hone_speed_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "shield/plate/hone_speed_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "shield/plate/hone_speed_4"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "shield/plate/hone_speed_5"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "shield/plate/ricochet_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "shield/plate/ricochet_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/handle/hone_speed_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/handle/hone_speed_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/handle/hone_speed_4"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/handle/hone_speed_5"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/head/basic_shovel/hone_shovel_efficiency_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/head/basic_shovel/hone_shovel_efficiency_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/head/basic_shovel/hone_shovel_efficiency_4"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/head/basic_shovel/hone_shovel_efficiency_5"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/head/earthpiercer/hone_efficiency_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/head/earthpiercer/hone_efficiency_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/head/earthpiercer/hone_efficiency_4"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/head/earthpiercer/hone_efficiency_5"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/head/earthpiercer/hone_piercing_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/head/earthpiercer/hone_piercing_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/head/earthpiercer/hone_piercing_4"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/head/spearhead/hone_damage_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/head/spearhead/hone_damage_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/head/spearhead/hone_damage_4"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/head/spearhead/hone_damage_5"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/head/spearhead/serrated_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/head/spearhead/serrated_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/head/spearhead/tempered_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/head/spearhead/tempered_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/unbound_earthpiercer/bind_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/unbound_earthpiercer/bind_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/unbound_earthpiercer/bind_4"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/unbound_earthpiercer/bind_5"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/unbound_earthpiercer/bind_6"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/unbound_earthpiercer/bind_7"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/unbound_earthpiercer/bind_8"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/unbound_earthpiercer/bind_9"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/unbound_earthpiercer/bind_10"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/unbound_earthpiercer/fracture_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/unbound_earthpiercer/fracture_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/head/hone_durability_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/head/hone_durability_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/head/hone_durability_4"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/head/hone_durability_5"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/head/hone_speed_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/head/hone_speed_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/head/hone_speed_4"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "single/head/hone_speed_5"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/basic_hilt/hone_damage_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/basic_hilt/hone_damage_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/basic_hilt/hone_damage_4"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/basic_hilt/hone_damage_5"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/basic_hilt/hone_speed_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/basic_hilt/hone_speed_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/basic_hilt/hone_speed_4"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/basic_hilt/hone_speed_5"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/shared_blade/hone_damage_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/shared_blade/hone_damage_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/shared_blade/hone_damage_4"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/shared_blade/hone_damage_5"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/shared_blade/hone_speed_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/shared_blade/hone_speed_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/shared_blade/hone_speed_4"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/shared_blade/hone_speed_5"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/shared_blade/hooked_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/shared_blade/hooked_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/shared_blade/serrated_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/shared_blade/serrated_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/shared_blade/tempered_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/shared_blade/tempered_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/stonecutter/hone_pickaxe_efficiency_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/stonecutter/hone_pickaxe_efficiency_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/stonecutter/hone_pickaxe_efficiency_4"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/stonecutter/hone_pickaxe_efficiency_5"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/throwing_knife/hone_throw_damage_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/throwing_knife/hone_throw_damage_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/throwing_knife/hone_throw_damage_4"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/throwing_knife/hone_throw_damage_5"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/unbound_stonecutter/hone_pickaxe_efficiency_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/unbound_stonecutter/hone_pickaxe_efficiency_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/unbound_stonecutter/hone_pickaxe_efficiency_4"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/unbound_stonecutter/hone_pickaxe_efficiency_5"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/unbound_stonecutter/bind_2"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/unbound_stonecutter/bind_3"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/unbound_stonecutter/bind_4"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/unbound_stonecutter/bind_5"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/unbound_stonecutter/bind_6"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/unbound_stonecutter/bind_7"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/unbound_stonecutter/bind_8"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/unbound_stonecutter/bind_9"
+            },
+            {
+                "type": "tetra:schematic",
+                "schematic": "sword/unbound_stonecutter/bind_10"
+            }
+        ]
+    },
+    "outcomes": [
+        {
+            "type": "tetravsikt:damage_anvil",
+            "chance": 1,
+            "range": 3
+        }
+    ]
+}

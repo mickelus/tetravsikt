@@ -1,29 +1,20 @@
 {
-    "replace": true,
-    "slots": [
-        "shield/plate"
-    ],
-    "materialSlotCount": 0,
-    "hone": true,
-    "rarity": "hone",
-    "displayType": "improvement",
-    "glyph": {
-        "textureX": 80,
-        "textureY": 240
-    },
     "requirement": {
-        "type": "tetra:improvement",
-        "improvement": "shield/ricochet",
-        "level": 2
-    },
-    "outcomes": [
-        {
-            "requiredTools": {
-                "hammer_dig": "minecraft:iron"
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:locked",
+                "key": "tetravsikt:anvil"
             },
-            "improvements": {
-                "shield/ricochet": 3
+            {
+                "type": "tetra:locked",
+                "key": "tetravsikt:enchanting_table"
+            },
+            {
+                "type": "tetra:improvement",
+                "improvement": "shield/ricochet",
+                "level": 2
             }
-        }
-    ]
+        ]
+    }
 }

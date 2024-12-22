@@ -1,0 +1,40 @@
+{
+    "replace": true,
+    "slots": [
+        "sword/blade"
+    ],
+    "materialSlotCount": 0,
+    "hone": true,
+    "rarity": "hone",
+    "displayType": "major",
+    "glyph": {
+        "textureX": 160,
+        "textureY": 48
+    },
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:locked",
+                "key": "tetra:sword/throwing_knife"
+            },
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:improvement",
+                    "improvement": "throwing_knife/hone_throw_damage"
+                }
+            }
+        ]
+    },
+    "outcomes": [
+        {
+            "requiredTools": {
+                "hammer_dig": "minecraft:gold"
+            },
+            "improvements": {
+                "throwing_knife/hone_throw_damage": 1
+            }
+        }
+    ]
+}

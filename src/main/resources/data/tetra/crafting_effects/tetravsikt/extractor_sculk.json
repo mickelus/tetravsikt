@@ -1,0 +1,25 @@
+{
+    "replace": true,
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:module",
+                "module": "double/unbound_extractor_right"
+            },
+            {
+                "type": "tetra:not",
+                "requirement": {
+                    "type": "tetra:locked",
+                    "key": "tetra:extractor"
+                }
+            }
+        ]
+    },
+    "outcomes": [
+        {
+            "type": "tetravsikt:spawn_sculk",
+            "chance": 1.0
+        }
+    ]
+}

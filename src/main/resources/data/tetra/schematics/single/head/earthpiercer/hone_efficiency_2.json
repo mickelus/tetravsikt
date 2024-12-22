@@ -1,22 +1,14 @@
 {
-    "replace": true,
-    "localizationKey": "double/shared_head/hone_pickaxe_efficiency_2",
-    "slots": [
-        "single/head"
-    ],
-    "materialSlotCount": 0,
-    "hone": true,
-    "rarity": "hone",
-    "displayType": "major",
-    "glyph": {
-        "textureX": 176
-    },
     "requirement": {
         "type": "tetra:and",
         "requirements": [
             {
-                "type": "tetra:module",
-                "module": "single/earthpiercer"
+                "type": "tetra:locked",
+                "key": "tetravsikt:smithing_table"
+            },
+            {
+                "type": "tetra:locked",
+                "key": "tetravsikt:anvil"
             },
             {
                 "type": "tetra:improvement",
@@ -24,15 +16,5 @@
                 "level": 1
             }
         ]
-    },
-    "outcomes": [
-        {
-            "requiredTools": {
-                "hammer_dig": "minecraft:iron"
-            },
-            "improvements": {
-                "head_hone/pickaxe_efficiency": 2
-            }
-        }
-    ]
+    }
 }
