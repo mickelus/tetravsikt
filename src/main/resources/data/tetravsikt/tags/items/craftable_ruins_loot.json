@@ -1,0 +1,18 @@
+{
+    "replace": false,
+    "values": [
+        "tetra:metal_scrap",
+        "tetra:forged_bolt",
+        "tetra:quick_latch",
+        "tetra:vent_plate",
+        "tetra:planar_stabilizer",
+        "tetra:thermal_cell",
+        "tetra:combustion_chamber",
+        "tetra:lubricant_dispenser",
+        "tetra:forged_pillar",
+        "tetra:forged_wall",
+        "tetra:forged_platform",
+        "tetra:forged_platform_slab",
+        "tetra:hammer_base"
+    ]
+}

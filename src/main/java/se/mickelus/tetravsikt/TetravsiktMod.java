@@ -33,6 +33,7 @@ public class TetravsiktMod {
     public TetravsiktMod() {
         FMLJavaModLoadingContext.get().getModEventBus().register(this);
         MinecraftForge.EVENT_BUS.register(this);
+        MinecraftForge.EVENT_BUS.register(ClearTooltipHandler.class);
         MinecraftForge.EVENT_BUS.register(serverScheduler);
 
         TetravsiktRegistries.init(FMLJavaModLoadingContext.get().getModEventBus());
