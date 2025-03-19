@@ -1,4 +1,5 @@
 {
+    "itemGroup.tetravsikt": "Tetravsikt",
     "tetra/schematic/sword/throwing_knife/hone_throw_damage_1.name": "Hone: Throwing damage",
     "tetra/schematic/sword/throwing_knife/hone_throw_damage_1.description": "Hone the knife to increase damage dealt when thrown.",
     "tetra/schematic/sword/throwing_knife/hone_throw_damage_2.name": "Hone: Throwing damage",
@@ -24,5 +25,16 @@
     "tetra.module.double/mallet.description": "The mallet head can be used when crafting modular items, and is sometimes used for salvaging.\n \nThe mallet is a primitive tool with high integrity use, as opposed to hammers there is no benefit to a double sided mallet.",
     "tetra.module.double/mallet.material_name": "%s mallet",
     "tetra.module.double/mallet.prefix": "%s",
-    "tetra.variant.mallet/oak.prefix": "Wooden"
+    "tetra.variant.mallet/oak.prefix": "Wooden",
+    "item.tetra.metal_scrap": "Iron carbide chunk",
+    "item.tetra.metal_scrap.description": "Settled beyond any phase of steel",
+    "item.tetravsikt.iron_coal_mix": "Sooty iron mixture",
+    "block.tetra.forged_pillar": "Iron carbide pillar",
+    "block.tetra.forged_platform": "Iron carbide platform",
+    "block.tetra.forged_platform_slab": "Iron carbide platform",
+    "block.tetra.forged_wall": "Iron carbide wall",
+    "block.tetra.forged_vent": "Iron carbide vent",
+    "block.tetra.forged_crate": "Iron carbide crate",
+    "block.tetra.forged_container": "Advanced container",
+    "block.tetra.forged_workbench": "Advanced workbench"
 }
