@@ -71,7 +71,7 @@
                 "blunt_weapon": 1
             },
             "tools": {
-                "hammer_dig": "minecraft:stone"
+                "hammer_dig": "minecraft:gold"
             },
             "models": [
                 {
@@ -94,7 +94,9 @@
                 "integrity": -1,
                 "magicCapacity": 1,
                 "glyph": {
-                    "textureX": 64
+                    "textureLocation": "tetravsikt:textures/gui/glyphs.png",
+                    "textureX": 0,
+                    "textureY": 0
                 }
             }
         },
@@ -111,7 +113,7 @@
                 "blunt_weapon": 1
             },
             "tools": {
-                "hammer_dig": "minecraft:stone"
+                "hammer_dig": "minecraft:gold"
             },
             "extract": {
                 "primaryAttributes": {
@@ -128,7 +130,9 @@
                 "integrity": -1,
                 "magicCapacity": 1,
                 "glyph": {
-                    "textureX": 64
+                    "textureLocation": "tetravsikt:textures/gui/glyphs.png",
+                    "textureX": 0,
+                    "textureY": 0
                 },
                 "availableTextures": [ "stone" ],
                 "models": [
@@ -151,7 +155,7 @@
                 "blunt_weapon": 1
             },
             "tools": {
-                "hammer_dig": "minecraft:stone"
+                "hammer_dig": "minecraft:iron"
             },
             "extract": {
                 "primaryAttributes": {
@@ -168,7 +172,9 @@
                 "integrity": -1,
                 "magicCapacity": 1,
                 "glyph": {
-                    "textureX": 64
+                    "textureLocation": "tetravsikt:textures/gui/glyphs.png",
+                    "textureX": 0,
+                    "textureY": 0
                 },
                 "availableTextures": [ "stone" ],
                 "models": [
@@ -191,7 +197,7 @@
                 "blunt_weapon": 1
             },
             "tools": {
-                "hammer_dig": "minecraft:iron"
+                "hammer_dig": "minecraft:diamond"
             },
             "models": [
                 {
@@ -213,7 +219,9 @@
                 "integrity": -1,
                 "magicCapacity": 1,
                 "glyph": {
-                    "textureX": 64
+                    "textureLocation": "tetravsikt:textures/gui/glyphs.png",
+                    "textureX": 0,
+                    "textureY": 0
                 }
             }
         }
