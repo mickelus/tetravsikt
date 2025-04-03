@@ -1,5 +1,6 @@
 {
     "materialRevealSlot": -1,
+    "preview": "always",
     "requirement": {
         "type": "tetra:locked",
         "key": "tetra:forged_workbench"
