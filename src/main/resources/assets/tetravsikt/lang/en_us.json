@@ -36,5 +36,14 @@
     "block.tetra.forged_vent": "Iron carbide vent",
     "block.tetra.forged_crate": "Iron carbide crate",
     "block.tetra.forged_container": "Advanced container",
-    "block.tetra.forged_workbench": "Advanced workbench"
+    "block.tetra.forged_workbench": "Advanced workbench",
+    "tetra.unlock.tetravsikt.anvil.description": "Requires an §lAnvil§r nearby",
+    "tetra.unlock.tetravsikt.smithing_table.description": "Requires a §lSmithing table§r nearby",
+    "tetra.unlock.tetravsikt.grindstone.description": "Requires a §lGrindstone§r nearby",
+    "tetra.unlock.tetravsikt.enchanting_table.description": "Requires an §lEnchanting table§r nearby",
+    "tetra.unlock.tetravsikt.loom.description": "Requires a §lLoom§r nearby",
+    "tetra.unlock.tetravsikt.fletching_table.description": "Requires a §lFletching table§r nearby",
+    "tetra.unlock.tetravsikt.blasting_furnace.description": "Requires a §lBlasting furnace§r nearby",
+    "tetra.unlock.tetravsikt.catalyst.description": "Requires a §lSculk catalyst§r nearby",
+    "tetra.unlock.tetra.forged_workbench.description": "Requires an §lAdvanced workbench§r nearby"
 }
